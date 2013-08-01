@@ -1,3 +1,10 @@
+# dot files
+.*
+!.editorconfig
+!.git*
+!.travis*
+
+# node
 lib-cov
 *.seed
 *.log
@@ -6,9 +13,6 @@ lib-cov
 *.out
 *.pid
 *.gz
-
 pids
 logs
 results
-
-npm-debug.log
