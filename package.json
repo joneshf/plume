@@ -1,0 +1,38 @@
+{
+  "name": "plume",
+  "version": "0.1.0",
+  "description": "Modern content management system (CMS) designed to generate single-page applications (SPA) with strong support for search engine optimization (SEO).",
+  "keywords": [
+    "CMS",
+    "content",
+    "management",
+    "system",
+    "SPA",
+    "single",
+    "single-page",
+    "page",
+    "application",
+    "SEO",
+    "search",
+    "engine",
+    "optimization",
+    "chaplin"
+  ],
+  "homepage": "https://github.com/plume/plume",
+  "bugs": {
+    "url": "https://github.com/plume/plume/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plume/plume.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Concordus Applications"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.8.22"
+  }
+}
