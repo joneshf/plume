@@ -1,0 +1,7 @@
+>>> serve from a local location
+
+$ plume serve ./docs
+
+>>> serve from a remote location
+
+$ plume serve git+git://github.com/plume/plume.git:docs
