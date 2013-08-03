@@ -30,7 +30,10 @@
   "author": {
     "name": "Concordus Applications"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async": "~0.2.9",
+    "marked": "~0.2.9"
+  },
   "devDependencies": {},
   "engines": {
     "node": ">=0.8.22"
