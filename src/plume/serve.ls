@@ -1,4 +1,3 @@
-require! http
 require! fs
 require! path
 require! async
@@ -72,7 +71,7 @@ handle-directory = (req, res, directory) ->
 handle-file = (req, res) ->
   res.end!
 
-handle = (req, res) ->
+exports.handle = (req, res) ->
   # Map url to path on the source.
   url = req.url.replace /\/+$/, ''
   location = path.join ROOT, url
@@ -87,7 +86,3 @@ handle = (req, res) ->
   # Transfer the directory or file handling.
   handler = if info.is-directory! then handle-directory else handle-file
   handler req, res, location
-
-module.exports = (options) ->
-  server = http.create-server handle
-  server.listen 8000, \localhost, options

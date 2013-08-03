@@ -2,6 +2,13 @@
   "name": "plume",
   "version": "0.1.0",
   "description": "Modern content management system (CMS) designed to generate single-page applications (SPA) with strong support for search engine optimization (SEO).",
+  "main": "./lib/plume",
+  "bin": {
+    "plume": "./bin/plume"
+  },
+  "scripts": {
+    "start": "node ./bin/plume"
+  },
   "keywords": [
     "CMS",
     "content",
@@ -34,7 +41,12 @@
     "async": "~0.2.9",
     "marked": "~0.2.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-livescript": "~0.5.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "matchdep": "~0.1.2"
+  },
   "engines": {
     "node": ">=0.8.22"
   }

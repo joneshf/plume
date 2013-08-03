@@ -1,0 +1,4 @@
+#! /usr/bin/env node
+var plume = require('../lib/plume');
+
+plume.createServer().listen(8000, 'localhost');
